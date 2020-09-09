@@ -8,8 +8,8 @@
 $().ready(() => {
     const animalArray = [];
     // get data with ajax
-    $.ajax("data/page-1.json", { method: "GET", dataType: "JSON" }).then(
-      (hornyAnimals) => {
+    $.ajax("data/page-1.json", { method: "GET", dataType: "JSON" })
+        .then((hornyAnimals) => {
         hornyAnimals.forEach((horned) => {
           new Animal(horned).render();
         });
@@ -57,7 +57,7 @@ $().ready(() => {
         $("select").append($selector);
       });
     };
-    // event handler on option click
+    // event listener on option click
     $("#menu").on("change", eventHandler);
     function eventHandler(event) {
       $("section").hide();
