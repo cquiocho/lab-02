@@ -8,7 +8,7 @@
 
 ### Links and Resources
 * [jQuery hide() Method](https://www.w3schools.com/jquery/eff_hide.asp)
-* [Pagination](How To Create a Pagination)
+* [Pagination](https://www.w3schools.com/howto/howto_css_pagination.asp)
 - Skylar Burger
 - Chance Harmon
 
@@ -26,7 +26,7 @@ Start time: 1:55pm
 Finish time: 4:00pm
 Actual time needed to complete: 2 hours 5 minutes
 
-Number and name of feature: #3 
+Number and name of feature: #3 Style the Application
 Estimate of time needed to complete: 1 hour
 Start time: 4:00pm
 Finish time: 4:35pm
@@ -38,17 +38,23 @@ Number and name of feature: #1 Pagination
 Estimate of time needed to complete: 1 hour
 Start time: 1:20pm
 Finish time: 1:40pm
-Actual time needed to complete:  20 minutes
+Actual time needed to complete: 20 minutes
 
 Number and name of feature: #2 Templating 
 Estimate of time needed to complete: 2 hour
 Start time: 1:50pm
 Finish time: 3:40pm
-Actual time needed to complete:   1 hour 50 minutes
+Actual time needed to complete: 1 hour 50 minutes
 
 Number and name of feature: #3 Styling with Flexbox
 Estimate of time needed to complete: 1 hour
 Start time: 1:50pm
-Finish time: 3:40pm
-Actual time needed to complete:   1 hour 50 minutes
+Finish time: 4:15pm
+Actual time needed to complete: 1 hour 50 minutes
+
+Number and name of feature: #4 Sort the Images
+Estimate of time needed to complete: 1 hour
+Start time: 4:15pm
+Finish time: 5:45pm
+Actual time needed to complete: 1 hour 30 minutes
 
