@@ -1,5 +1,8 @@
 * {
     background-color: rgb(224, 205, 244);
-    box-sizing: border-box;
-    font-family: 'Grandstander', cursive;
-}
+    font-family: "Grandstander", cursive;
+  }
+  h2 {
+    font-size: x-large;
+    text-decoration: underline;
+  }

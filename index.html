@@ -2,40 +2,42 @@
 <html>
   <head>
     <title>The Gallery of Horns</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/layout.css" />
-    <link rel="stylesheet" type="text/css" href="css/modules.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@200&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/base.css" rel="stylesheet" type="text/css" />
+    <link href="css/layouts.css" rel="stylesheet" type="text/css" />
+    <link href="css/modules.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <script id="beast" type="text/x-tmpl-mustache">
       <section class="{{keyword}}">
         <h2>{{title}}</h2>
-        <img src="{{image_url}}" />
+        <img src="{{image_url}}"/>
         <p>{{description}}</p>
       </section>
     </script>
   </head>
   <body>
     <header>
-      <h1>The Gallery of Horns</h1>
+      <h1>The Gallery of Horny Animals</h1>
       <select id="menu">
         <option value="default">Filter by Keyword</option>
       </select>
-    </header>
-    <main>
-      <!-- <section id="photo-template">
-        <h2></h2>
-        <img src="" alt="" />
-        <p></p>
-      </section> -->
+      <select id="sorter">
+        <option value="default">Sort Images</option>
+        <option value="alphabetical">Alphabetical</option>
+        <option value="number-horns">Number of Horns</option>
+      </select>
       <div class="pagination">
         <a href="">&laquo;</a>
         <a href="index.html">1</a>
         <a href="page-2.html">2</a>
         <a href="#">&raquo;</a>
       </div>
-    </main>
+    </header>
+    <main></main>
     <footer>
       <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
       <script src="https://unpkg.com/mustache@latest"></script>
